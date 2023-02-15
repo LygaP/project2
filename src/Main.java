@@ -90,7 +90,7 @@ public class Main {
 
         // 8.
 
-
+        System.out.println();
 
         int num11 = (int) Math.round(Math.random())*100;
         int num22 = (int) Math.round(Math.random())*100;
