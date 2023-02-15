@@ -231,21 +231,50 @@ public class Main {
         int min6 = -10;
         int max6 = 10;
 
-        int rndNum61 = min6 + (int) Math.round(Math.random() * (max6- min6)); //-10 + (5* (10-)-10
+        int rndNum61 = min6 + (int) Math.round(Math.random() * (max6- min6));
         int rndNum62 = min6 + (int) Math.round(Math.random() * (max6- min6));
         int rndNum63 = min6 + (int) Math.round(Math.random() * (max6- min6));
 
-        if ( rndNum61 <= -1 && rndNum62 <=-1 && rndNum63 <=-1);{
 
+
+        if ( rndNum61 < 0) ;{
+            System.out.println( "skaicius No.1 < 0 " + "[" + rndNum61 + "]");
         }
 
-        if ( rndNum61 == 0 && rndNum62 ==0 && rndNum63 ==0);{
-
+        if ( rndNum61 == 0) ;{
+            System.out.println("skaicius No.1 = 0 " + "(" + rndNum61 + ")");
         }
 
+        if ( rndNum61 > 0);{
+            System.out.println("skaicius No.1 > 0 " + "{" + rndNum61 + "}");
+        }
 
-        if ( rndNum61 >= -1 && rndNum62 >=-1 && rndNum63 >=-1);{
+        //----------------------------------------------------------------------
 
+        if ( rndNum62 < 0) ;{
+            System.out.println( "skaicius No.2 < 0 " + "[" + rndNum62 + "]");
+        }
+
+        if ( rndNum62 == 0) ;{
+            System.out.println("skaicius No.2 = 0 " + "(" + rndNum62 + ")");
+        }
+
+        if ( rndNum62 > 0);{
+            System.out.println("skaicius No.2 > 0 " + "{" + rndNum62 + "}");
+        }
+
+        //----------------------------------------------------------------------
+
+        if ( rndNum63 < 0) ;{
+            System.out.println( "skaicius No.3 < 0 " + "[" + rndNum63 + "]");
+        }
+
+        if ( rndNum63 == 0) ;{
+            System.out.println("skaicius No.3 = 0 " + "(" + rndNum63 + ")");
+        }
+
+        if ( rndNum63 > 0);{
+            System.out.println(" skaicius No.3 > 0 " + "{" + rndNum63 + "}");
         }
 
 
