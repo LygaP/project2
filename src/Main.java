@@ -34,6 +34,12 @@ public class Main {
 
 
         // 1.
+        // Sukurkite 4 kintamuosius, kurie saugotų jūsų vardą, pavardę, gimimo
+        //metus ir šiuos metus (nebūtinai tikrus). Parašykite kodą, kuris pagal
+        //gimimo metus paskaičiuotų jūsų amžių ir naudodamas vardo ir
+        //pavardės kintamuosius atspausdintų tokį sakinį :
+        //"Aš esu Vardenis Pavardenis. Man yra XX metai(ų)".
+
         System.out.println("=============== uzd 1. =================");
 
         String firstName = "Liga";
@@ -45,6 +51,11 @@ public class Main {
 
 
         // 2.
+        // Naudokite funkcija Math.random(). Sukurkite du kintamuosius ir
+        //naudodamiesi funkcija Math.random() jiems priskirkite atsitiktines
+        //reikšmes nuo 0 iki 4. Didesnę reikšmę padalinkite iš mažesnės.
+        //Atspausdinkite rezultatą jį suapvalinę iki 2 skaičių po kablelio.
+
         System.out.println("=============== uzd 2. =================");
         int min = 0;
         int max = 4;
@@ -77,6 +88,10 @@ public class Main {
 
 
         // 3.
+        //Naudokite funkcija Math.random(). Sukurkite tris kintamuosius ir
+        //naudodamiesi funkcija Math.random() jiems priskirkite atsitiktines
+        //reikšmes nuo 0 iki 25. Raskite ir atspausdinkite kintąmąjį turintį vidurinę
+        //reikšmę.
 
         System.out.println("=============== uzd 3. =================");
 
@@ -111,6 +126,11 @@ public class Main {
 
 
         // 4.
+        //Įvedami skaičiai -a, b, c –kraštinių ilgiai, trys kintamieji (naudojame int)
+        //(naudokite Math.random() funkcija nuo 1 iki 10). Parašykite Java
+        //programą, kuri nustatytų, ar galima sudaryti trikampį ir atsakymą
+        //atspausdintų.
+
         System.out.println("=============== uzd 4. =================");
 
         int min4 = 1;
@@ -128,18 +148,109 @@ public class Main {
 
 
         // 5.
+        // Sukurkite keturis kintamuosius ir Math.random() funkcija
+        //sugeneruokite jiems
+        //reikšmes nuo 0 iki 2. Suskaičiuokite kiek yra nulių, vienetų ir dvejetų.
+        //(sprendimui masyvo nenaudoti).
+
         System.out.println("=============== uzd 5. =================");
 
-        int =
-        int =
-        int =
-        int =
+        int rndNum51= (int) Math.random() * 3;//
+        int rndNum52 = (int) Math.random() * 3;//
+        int rndNum53 = (int) Math.random() * 3;//
+        int rndNum54 = (int) Math.random() * 3;//
 
+        int nuliai = 0;
+        int vienetai = 0;
+        int dvejetai = 0;
 
+        // NULIAI
+        if (rndNum51 == 0) {
+            nuliai = nuliai + 1;
+        }
 
+        if (rndNum52 == 0) {
+            nuliai = nuliai + 1;
+        }
+
+        if (rndNum53 == 0) {
+            nuliai = nuliai + 1;
+        }
+
+        if (rndNum54 == 0) {
+            nuliai = nuliai + 1;
+        }
+
+        System.out.println("Is keturiu random skaiciu  nuliu yra " +  nuliai + " .");
+
+        //VIENETAI
+        if (rndNum51 == 1) {
+            vienetai = vienetai + 1;
+        }
+
+        if (rndNum52 == 1) {
+            vienetai = vienetai + 1;
+        }
+
+        if (rndNum53 == 1) {
+            vienetai = vienetai + 1;
+        }
+
+        if (rndNum54 == 1) {
+            vienetai = vienetai + 1;
+        }
+
+        System.out.println("Is keturiu random skaiciu  vienetu yra " + vienetai + " .");
+
+        //DVEJETAI
+        if (rndNum51 == 2) {
+            dvejetai = dvejetai + 1;
+        }
+
+        if (rndNum52 == 2) {
+            dvejetai = dvejetai + 1;
+        }
+
+        if (rndNum53 == 2) {
+            dvejetai = dvejetai + 1;
+        }
+
+        if (rndNum54 == 2) {
+            dvejetai = dvejetai + 1;
+        }
+        System.out.println("Is keturiu random skaiciu  dvejetu yra " + dvejetai + " .");
 
 
         // 6.
+        //Naudokite funkcija Math.random(). Atspausdinkite 3 skaičius nuo -10 iki
+        //10. Skaičiai mažesni už 0 turi būti laužtiniuose skliaustuose [], 0 - (),
+        //didesni už 0 {}.
+
+        System.out.println("=============== uzd 6. =================");
+
+        int min6 = -10;
+        int max6 = 10;
+
+        int rndNum61 = min6 + (int) Math.round(Math.random() * (max6- min6)); //-10 + (5* (10-)-10
+        int rndNum62 = min6 + (int) Math.round(Math.random() * (max6- min6));
+        int rndNum63 = min6 + (int) Math.round(Math.random() * (max6- min6));
+
+        if ( rndNum61 <= -1 && rndNum62 <=-1 && rndNum63 <=-1);{
+
+        }
+
+        if ( rndNum61 == 0 && rndNum62 ==0 && rndNum63 ==0);{
+
+        }
+
+
+        if ( rndNum61 >= -1 && rndNum62 >=-1 && rndNum63 >=-1);{
+
+        }
+
+
+
+
 
         // 7.
 
