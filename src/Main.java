@@ -14,6 +14,7 @@ public class Main {
         city = "Vilnius";
         System.out.println(city);
 
+
         int currYear = 2023;
         System.out.println(currYear);
 
@@ -77,7 +78,7 @@ public class Main {
         int rndNum2 = Math.random()*26;
         int rndNum3 = Math.random()*26;
         System.out.println("Vidurine reiksme");
-
+        System.out.println();
 
         // 4.
 
