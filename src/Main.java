@@ -237,53 +237,74 @@ public class Main {
 
 
 
-        if ( rndNum61 < 0) ;{
-            System.out.println( "skaicius No.1 < 0 " + "[" + rndNum61 + "]");
+        if (rndNum61 < 0) ;{
+            System.out.println("skaicius No.1 < 0 " + "[" + rndNum61 + "]");
         }
 
-        if ( rndNum61 == 0) ;{
+        if (rndNum61 == 0) ;{
             System.out.println("skaicius No.1 = 0 " + "(" + rndNum61 + ")");
         }
 
-        if ( rndNum61 > 0);{
+        if (rndNum61 > 0);{
             System.out.println("skaicius No.1 > 0 " + "{" + rndNum61 + "}");
         }
 
         //----------------------------------------------------------------------
 
-        if ( rndNum62 < 0) ;{
-            System.out.println( "skaicius No.2 < 0 " + "[" + rndNum62 + "]");
+        if (rndNum62 < 0) ;{
+            System.out.println("skaicius No.2 < 0 " + "[" + rndNum62 + "]");
         }
 
-        if ( rndNum62 == 0) ;{
+        if (rndNum62 == 0) ;{
             System.out.println("skaicius No.2 = 0 " + "(" + rndNum62 + ")");
         }
 
-        if ( rndNum62 > 0);{
+        if (rndNum62 > 0);{
             System.out.println("skaicius No.2 > 0 " + "{" + rndNum62 + "}");
         }
 
         //----------------------------------------------------------------------
 
-        if ( rndNum63 < 0) ;{
-            System.out.println( "skaicius No.3 < 0 " + "[" + rndNum63 + "]");
+        if (rndNum63 < 0) ;{
+            System.out.println("skaicius No.3 < 0 " + "[" + rndNum63 + "]");
         }
 
-        if ( rndNum63 == 0) ;{
+        if (rndNum63 == 0) ;{
             System.out.println("skaicius No.3 = 0 " + "(" + rndNum63 + ")");
         }
 
-        if ( rndNum63 > 0);{
-            System.out.println(" skaicius No.3 > 0 " + "{" + rndNum63 + "}");
+        if (rndNum63 > 0);{
+            System.out.println("skaicius No.3 > 0 " + "{" + rndNum63 + "}");
         }
-
-
 
 
 
         // 7.
+        // Įmonė parduoda žvakes po 1 EUR. Perkant daugiau kaip 1000 vienetų
+        //taikoma 3 % nuolaida, daugiau kaip 2000 vienetų- 4 % nuolaida.
+        //Parašykite programą, kuri skaičiuos žvakių kainą ir atspausdintų
+        //atsakymą kiek žvakių ir kokia kaina perkama. Žvakių kiekį generuokite
+        //Math.random() funkcija nuo 5 iki 3000.
 
         // 8.
+        // Naudokite funkcija Math.random(). Sukurkite tris kintamuosius su
+        //atsitiktinėm reikšmėm nuo 0 iki 100. Paskaičiuokite jų aritmetinį vidurkį.
+        //Ir aritmetinį vidurkį atmetus tas reikšmes, kurios yra mažesnės nei 10
+        //arba didesnės nei 90. Abu vidurkius atspausdinkite. Rezultatus
+        //apvalinkite iki sveiko skaičiaus.
+
+        // 9.
+        // Padarykite skaitmeninį laikrodį, rodantį valandas, minutes ir sekundes.
+        //Valandom, minutėm ir sekundėm sugeneruoti panaudokite funkciją
+        //Math.random(). Sugeneruokite skaičių nuo 0 iki 300. Tai papildomos
+        //sekundės. Skaičių pridėkite prie jau sugeneruoto laiko. Atspausdinkite
+        //laikrodį prieš ir po sekundžių pridėjimo ir pridedamų sekundžių skaičių.
+
+        // 10.
+        // Naudokite funkcija Math.random(). Sugeneruokite 6 kintamuosius su
+        //atsitiktinem reikšmėm nuo 1000 iki 9999. Atspausdinkite reikšmes
+        //viename strige, išrūšiuotas nuo didžiausios iki mažiausios, atskirtas
+        //tarpais. Naudoti ciklų ir masyvų NEGALIMA.
 
 
 
